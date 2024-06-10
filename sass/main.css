@@ -73,25 +73,21 @@
   box-sizing: border-box;
 }
 
-.lien-retour-vers-haut {
-  display: flex;
-  align-items: end;
-  flex-direction: row-reverse;
-  width: 60px;
-}
-.lien-retour-vers-haut .lien-haut {
-  border-radius: 50px;
+.lien-haut {
+  display: block;
+  border-radius: 50%;
   background: linear-gradient(145deg, #e3e0dc, #ffffff);
   box-shadow: 20px 20px 60px #d6d4cf, -20px -20px 60px #ffffff;
-  border-radius: 15px;
-  height: auto;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 90%;
+  width: 70px;
+  height: 70px;
+  padding: 3px;
 }
 
-/*Variante*/
+.arrow-up {
+  width: 60px !important;
+}
+
 .navbar-brand {
   color: #444440 !important;
   transition-duration: 1s !important;
@@ -104,8 +100,7 @@
 .navbar {
   transition: all 0.6s ease;
   background-color: #ffd0d0;
-  position: fixed;
-  width: 100%;
+  position: fixed !important;
 }
 
 .navbar-toggler-icon {
@@ -167,6 +162,14 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+body .background-image {
+  background-image: url(../../asset/banniere.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+}
 body .part-2 .profil {
   width: 100px;
   float: left;
