@@ -1,0 +1,77 @@
+@import "../utils/variables";
+
+.navbar-brand{
+    color: $grey !important;
+    transition-duration: 1s !important;
+}
+
+.navbar-brand:hover{
+    border-bottom: 2px solid $grey;
+}
+
+.navbar {
+    transition: all 0.6s ease;
+    background-color: $light-pink;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+    background-color: $blue !important;
+}
+
+.navbar-toggler{
+    background-color: $blue !important;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 208, 208, 0.403); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+}
+
+.nav-item {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+.nav-link {
+    color: $grey!important;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+#btnNav{
+    border-color: $blue !important;
+    background-color: $blue !important;
+    width: 50px;
+    height: 50px;
+}
+
+#buttonContact{
+    color: $grey!important;
+    border-radius: 10px;
+    height: 43px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+#buttonContact:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
