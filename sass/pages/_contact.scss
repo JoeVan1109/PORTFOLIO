@@ -1,0 +1,119 @@
+.offcanvas{
+    background: white;
+    background: linear-gradient(to bottom, $blue, $light-pink);
+    
+
+    .offcanvas-title{
+        color: $pink;
+    }
+
+
+    .offcanvas-body{
+
+        .lien-contact{
+            color: $pink;
+            text-decoration: none;
+            transition-duration: 1s;
+        }
+        .lien-contact:hover{
+            color: $dark-blue !important;
+            font-size: 22px;
+        }
+        .lien-rs{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        
+        .img-contact{
+            width: 40px;
+            margin: 15px;
+        
+        }
+        
+        .img-github{
+            width: 57%;
+            margin: 15px;
+        }
+        .img-linkedin{
+            width: 57%;
+        }
+        
+        .mail{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .tel{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .glow-on-hover {
+            width: 45%;
+            height: 114%;
+            border: none;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-radius: 50%;
+            color: #fff;
+            position: relative;
+            cursor: pointer;
+            background-color: $light-blue;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(20deg, #7469B6, #AD88C6, #E1AFD1, #FFE6E6, #E1AFD1, #7BABDF, #7a00ff, #89C5C7, #E0C0AF);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+        }
+        
+        .glow-on-hover:active {
+            color: $pink;
+        }
+        
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+        
+        .glow-on-hover:hover:before {
+            opacity: 1;
+        }
+        
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+
+        .glow-on-hover:active{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
+
+    }
+}

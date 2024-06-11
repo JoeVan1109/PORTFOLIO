@@ -24,10 +24,12 @@
                             <a class="nav-link active" aria-current="page" href="#apropos">A propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projet">Projets</a>
+                            <a class="nav-link" href="#projets">Projets</a>
                         </li>
                         <li class="nav-item">
-                            <input type="button" id="buttonContact" value="Contact">
+                            <button class="bouton" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                                CONTACT
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -52,11 +54,53 @@
 
     </div>
 
-    <!--!----------------------------------PART-2---------------------------------->
+<!--!-------------------------------CONTACT CARD------------------------------->
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+        <h1 class="offcanvas-title">Contact</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="mail">
+                <div class="ms-4">
+                    <img class="img-contact" src="./asset/icone/mail.png" alt="gmail">
+                </div>
+        
+                <div class="ms-2">
+                    <a class="lien-contact" href="mailto:charlie.van1109@gmail.com">charlie.van1109@gmail.com</a>
+                </div>
+            </div>
+        
+            <div class="tel mt-3">
+                <div class="ms-4">
+                    <img class="img-contact" src="./asset/icone/tel.png" alt="tel">
+                </div>
+        
+                <div class="ms-2">
+                    <a class="lien-contact" href="tel:0625980346">06 25 98 03 46</a>
+                </div>
+            </div>
+
+            <div class="lien-rs mt-5">
+                <div class="bouton-icone ">
+                    <button class="glow-on-hover"><a href="https://www.linkedin.com/in/clarisse-vanlerberghe-616171178/"><img class="img-linkedin" src="./asset/icone/linkedin.png" alt="linkedin"></a></button>
+                </div>
+            
+                <div class="bouton-icone">
+                    <button class="glow-on-hover"><a href="https://github.com/JoeVan1109"><img class="img-github" src="./asset/icone/github.png" alt="gihub"></a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!--!----------------------------------PART-2---------------------------------->
 
     <div class="container-fluid p-5 background-color">
 
-        <div class="row p d-lg-flex align-items-center part-2">
+        <div class="row p d-lg-flex align-items-center part-2" id="apropos">
                 
                 <div class="col-12 col-lg-6 text-center">
                     <img class="profil rounded-circle w-75" src="./asset/photocv.jpg" alt="profil">
@@ -92,7 +136,7 @@
 
 <!--!----------------------------------COMPETENCES---------------------------------->
 
-        <div class="row competences" id="competences">
+        <div class="row competences">
 
             <div class="col-12 mt-4 mb-3">
                 <h2 class="titre-pink ps-4 pt-5">Compétences</h2>
@@ -443,7 +487,7 @@
             </div>
 
             <div class="col-12 d-flex justify-content-center">
-                <img class="img-recette w-100" src="./asset/Recipe.gif" alt="recipe">
+                <img class="img-recette w-50" src="./asset/Recipe.gif" alt="recipe">
             </div>
 
 <!--*------------------------------- LANGAGEs UTILISES ------------------------------------>

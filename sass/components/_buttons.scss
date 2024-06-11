@@ -109,3 +109,21 @@
 .arrow-up{
     width: 60px !important;
 }
+
+
+//!BOUTON CONTACT----------------------------------------------------------------------------------
+
+.bouton{
+    color: $grey!important;
+    border-radius: 10px;
+    height: 43px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bouton:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
