@@ -1,3 +1,6 @@
+@import "../utils/variables";
+@import "../base/typography";
+
 body{
 
     .background-image{
@@ -18,25 +21,48 @@ body{
     }
     }
 
-    
-    .part-2{
-        .profil{
-        width: 100px;
-        float: left;
-    }
-    }
+    .background-color{
+        background-color: $beige;
+        .part-2{
+            .align-text{
+                
+            }
+            .profil{
+            
+            }
+            .text-accroche{
+                font-size:19px;
+                color: $darkgrey;
+            }
+            .text{
+                color: $grey;
+            }
+        }
 
-    .competences{
-        .img-icone{
-            width: 60px;
+        .competences{
+            .img-icone{
+                width: 60px;
+            }
+        }
+
+        .projets{
+            .img-icone{
+                width: 60px;
+            }
+        }
+
+        .competences{
+            .titre-pink{
+                border-top: 4px solid $blue;
+                
+            }
+        }
+
+        .projets{
+            .titre-pink{
+                border-top: 4px solid $blue;
+                
+            }
         }
     }
-
-    .projets{
-        .img-icone{
-            width: 60px;
-        }
-    }
-    
-
 }

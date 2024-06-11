@@ -1,3 +1,4 @@
+/*Variante*/
 body .background-image {
   background-image: url(../../asset/banniere.svg);
   background-size: cover;
@@ -12,13 +13,25 @@ body .background-image .part-1 .bloc-titre {
   background-size: cover;
   height: 100vh;
 }
-body .part-2 .profil {
-  width: 100px;
-  float: left;
+body .background-color {
+  background-color: #fcf9f4;
 }
-body .competences .img-icone {
+body .background-color .part-2 .text-accroche {
+  font-size: 19px;
+  color: #262626;
+}
+body .background-color .part-2 .text {
+  color: #444440;
+}
+body .background-color .competences .img-icone {
   width: 60px;
 }
-body .projets .img-icone {
+body .background-color .projets .img-icone {
   width: 60px;
+}
+body .background-color .competences .titre-pink {
+  border-top: 4px solid #D1F4FF;
+}
+body .background-color .projets .titre-pink {
+  border-top: 4px solid #D1F4FF;
 }/*# sourceMappingURL=home.css.map */
