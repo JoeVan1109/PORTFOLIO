@@ -30,13 +30,21 @@ body{
             .profil{
             
             }
-            .text-accroche{
+                
+            .text{
                 font-size:19px;
+                font-weight: 500;
                 color: $darkgrey;
             }
-            .text{
-                color: $grey;
+
+            .text-important{
+                color: $pink;
             }
+
+            .logo-oclock{
+                width: 87px;
+            }
+            
         }
 
         .competences{
@@ -46,9 +54,8 @@ body{
         }
 
         .projets{
-            .img-icone{
-                width: 60px;
-            }
+            
+
         }
 
         .competences{
@@ -62,6 +69,17 @@ body{
             .titre-pink{
                 border-top: 4px solid $blue;
                 
+            }
+            .sous-titre{
+                margin: 20px 0 25px 0;
+                text-align: center;
+            }
+            .img-icone{
+                width: 60px;
+                
+            }
+            .list-1{
+                margin: 50px 0 50px 20px;
             }
         }
     }

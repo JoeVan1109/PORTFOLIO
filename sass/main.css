@@ -177,21 +177,38 @@ body .background-image .part-1 .bloc-titre {
   background-size: cover;
   height: 100vh;
 }
-body .background-color .part-2 .profil {
-  width: 100px;
-}
-body .background-color .part-2 .text-accroche {
-  font-size: 19px;
-  color: #262626;
+body .background-color {
+  background-color: #fcf9f4;
 }
 body .background-color .part-2 .text {
-  color: #444440;
+  font-size: 19px;
+  font-weight: 500;
+  color: #262626;
+}
+body .background-color .part-2 .text-important {
+  color: #C25D76;
+}
+body .background-color .part-2 .logo-oclock {
+  width: 10%;
 }
 body .background-color .competences .img-icone {
   width: 60px;
 }
 body .background-color .projets .img-icone {
   width: 60px;
+}
+body .background-color .competences .titre-pink {
+  border-top: 4px solid #D1F4FF;
+}
+body .background-color .projets .titre-pink {
+  border-top: 4px solid #D1F4FF;
+}
+body .background-color .projets .sous-titre {
+  margin: 20px 0 25px 0;
+  text-align: center;
+}
+body .background-color .projets .list-1 {
+  margin: 50px 0 50px 20px;
 }
 
 /*Variante*/
