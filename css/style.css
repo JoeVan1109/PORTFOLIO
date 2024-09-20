@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*Variante*/
 .wrapper {
+  margin: 0 0 30px 0;
   /**************SVG****************/
   /* SVG animations */
 }
@@ -31,6 +32,7 @@
   margin-right: 45px;
 }
 .wrapper span {
+  font-size: 30px;
   transform: skewX(15deg);
 }
 .wrapper span:nth-child(2) {
@@ -96,6 +98,7 @@
   background-color: transparent;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 
 .bouton:hover {
@@ -263,6 +266,11 @@
 }
 
 /*Variante*/
+@media screen and (min-width: 768px) {
+  body .container-page {
+    padding: 100px;
+  }
+}
 body .background-image {
   background-image: url(../../asset/banniere.svg);
   background-size: cover;

@@ -3,6 +3,11 @@
 
 body{
 
+    @media screen and (min-width: 768px){
+        .container-page {
+            padding: 100px;
+        }
+    }
     .background-image{
         background-image: url(../../asset/banniere.svg);
         background-size: cover;
