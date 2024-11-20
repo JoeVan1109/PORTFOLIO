@@ -316,7 +316,10 @@ body .background-color .projets .img-icone {
   width: 60px;
 }
 body .background-color .projets .list-1 {
-  margin: 50px 0 50px 20px;
+  margin: 50px 0 20px 20px;
+}
+body .background-color .projets .text-projet {
+  margin-bottom: 35px;
 }
 
 /*Variante*/
