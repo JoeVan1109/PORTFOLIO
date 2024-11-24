@@ -288,6 +288,10 @@ body .background-image .part-1 .bloc-titre {
 body .background-color {
   background-color: #fcf9f4;
 }
+body .background-color .part-2 .profil {
+  margin: 40px;
+  border-radius: 50px;
+}
 body .background-color .part-2 .text {
   font-size: 19px;
   font-weight: 500;
